@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fcfbfb !important;
+}
+input{
+    cursor: pointer !important;
+}
+.card5{
+    background-color: #6c4c4cdd !important;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card5 .card-body .card-title{
+    color: white !important;
+}
+
+.card6{
+    background-color: #6c4c4cdd !important;
+    display: none ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.card6.active{
+    display: flex;
+}
+.card-title {
+    color: #1442e9 !important;
+    text-align: center;
+    font-size: 35px;
+}
+.card-text{
+    color: #fff !important;
+    font-size: 17px;
+}
+#dogru.active{
+    background-color: green !important;
+}
+#yanlis.active{
+    background-color: red !important;
+}
+
+/* card2 */
+
+.card2{
+    display: none;
+    background-color: rgba(126, 139, 70, 0.867) !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.card2-title {
+    color: #e9141b !important;
+    text-align: center ;
+    font-size: 35px;
+}
+.card2-text{
+    color: #fff !important;
+    
+    font-size: 17px;
+}
+.card2.active{
+    display: flex;
+}
+
+.card3{
+    display: none;
+    background-color: #75b1c6dd !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.card3-title {
+    color: #e9141b !important;
+    text-align: center ;
+    font-size: 35px;
+}
+.card3-text{
+    color: #fff !important;
+    
+    font-size: 17px;
+}
+.card3.active{
+    display: flex;
+}
+
+.card7{
+    display: none;
+    background-color: #75b1c6dd !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.card7-title {
+    color: #e9141b !important;
+    text-align: center ;
+    font-size: 35px;
+}
+.card7-text{
+    color: #fff !important;
+    
+    font-size: 17px;
+}
+.card7.active{
+    display: flex;
+}
+
+.card8{
+    display: none;
+    background-color: #75b1c6dd !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.card8-title {
+    color: #e9141b !important;
+    text-align: center ;
+    font-size: 35px;
+}
+.card8-text{
+    color: #fff !important;
+    
+    font-size: 17px;
+}
+.card8.active{
+    display: flex;
+}
+
+
+/* süre */
+.countdown {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+/* puan gösterim kısmı */
+.sonuc{
+    display: none;
+    width: 35rem;
+    height: 65px;
+    background-color: #b6686b;
+    border-radius: 7px;
+    padding: 10px;
+}
+.sonuc2{
+    font-size: 32px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.sonuc.active{
+    display: flex;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    text-align: center;
+  }
+
+.footerr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon a{
+    color: white;
+    text-decoration: none;
+}
+.icon i{
+    cursor: pointer;
+}
